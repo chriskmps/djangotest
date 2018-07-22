@@ -1,0 +1,7 @@
+{% if question_pub %}
+	<p> {{ question_pub.question_text }} <p>
+		<ul> Date : {{ question_pub.pub_date }} <ul>
+{% else %}
+    <p> No Date available</p>
+{% endif %}
+
